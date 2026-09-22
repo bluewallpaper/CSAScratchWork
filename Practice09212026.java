@@ -4,7 +4,7 @@ public class Practice09212026
       int myNum =  1;
       // myNum = myNum + 1; 
       // myNum++; ----> myNum = myNum + 1
-      myNum += 1;
+      myNum += 1; // *=; /=; 
       
       System.out.println("myNum is equal to " + myNum);
    }
