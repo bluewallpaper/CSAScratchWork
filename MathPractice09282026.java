@@ -9,5 +9,6 @@ public class MathPractice09282026
                                               // Math.random() * 10 returns [0 * 10, 1 * 10) = [0, 10)
       System.out.println((int) (Math.random() * 10)); //with (int) it will return int numbers
       System.out.println((int) (Math.random() * 10 + 5)); // a random number between [0, 10) + 5
+      System.out.println((int) (Math.random() * 7 + 3));
    }
 }
