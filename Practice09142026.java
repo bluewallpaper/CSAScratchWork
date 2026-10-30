@@ -34,5 +34,4 @@ public class Practice09142026 {
       System.out.println("Total goals in the match: " + totalGoals);
       
    }
-
 }
