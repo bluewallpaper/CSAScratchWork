@@ -18,7 +18,7 @@ public class ProjectEuler {
    public static int problem7() {
       // 10,001 posicao dos numeros primos
       // Se um numero for primo o contador sobe 1 (esta e a primeira posicao)
-      // para ver se um numero e primo eu preciso fazer um dois loops
+      // para ver se um numero e primo eu preciso fazer dois loops
       // o primeiro loop vai ser o numerador
       // o segundo loop vai ser o denominador
       // eu preciso fazer o numero primo se dividir apenas pelo numeros antes dele
