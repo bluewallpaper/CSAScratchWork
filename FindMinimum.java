@@ -1,3 +1,4 @@
+/*
 public class FindMinimum {
    public static void main(String[] args) {
       int count = 1;
@@ -18,4 +19,20 @@ public class FindMinimum {
       System.out.println("Minimum value: " + max);
    }
 }
-
+*/
+public class FindMinimum {
+   public static int findMin() {
+      int minNum = 100;
+      for (int pos = 1; pos < 11; pos++) {
+         int randNum = (int) (Math.random() * 100);
+         System.out.println(pos + ": " + randNum);
+         if (randNum < minNum) {
+            minNum = randNum;
+         }
+      }
+      return minNum;
+   }
+   public static void main(String[] args) {
+      System.out.println("Minimum value: " + findMin());
+   }
+}
